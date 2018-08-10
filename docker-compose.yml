@@ -1,0 +1,7 @@
+version: '2'
+services:
+    6tunnel:
+      image: bastianlemke/docker-6tunnel
+      container_name: 6tunnel
+      network_mode: "host"
+      restart: always
